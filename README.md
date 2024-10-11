@@ -1,6 +1,5 @@
 # 🌟 AuraTrips: AI-Powered Personalized Travel Itinerary Generator
 
-
 ## 📚 Table of Contents
 
 - [Introduction](#-introduction)
@@ -25,9 +24,6 @@ This solution addresses the Atlan Engineering Fellowship Task - 2024, focusing o
 
 ## ✨ Features
 
-<details>
-<summary>Click to expand</summary>
-
 - 🖥️ User-friendly interface for inputting travel preferences
 - 🤖 AI-powered itinerary generation using RAG and LLM technologies
 - 💡 Personalized recommendations based on budget, interests, and trip duration
@@ -35,12 +31,7 @@ This solution addresses the Atlan Engineering Fellowship Task - 2024, focusing o
 - 📱 Responsive design for seamless use across devices
 - 🔐 User authentication and itinerary saving functionality
 
-</details>
-
 ## 🛠️ Tech Stack
-
-<details>
-<summary>Click to expand</summary>
 
 ### Backend
 
@@ -65,12 +56,7 @@ This solution addresses the Atlan Engineering Fellowship Task - 2024, focusing o
 - **RAG (Retrieval-Augmented Generation)**: For enhancing AI responses with external data
 - **CSV data ingestion**: For processing local datasets of travel destinations
 
-</details>
-
 ## 🏗️ Architecture
-
-<details>
-<summary>Click to expand</summary>
 
 AuraTrips follows a modern, scalable architecture:
 
@@ -80,36 +66,36 @@ AuraTrips follows a modern, scalable architecture:
 4. **AI Processing**: Integration with Groq API for accessing the LLaMA 3 model, enhanced with RAG for personalized recommendations.
 5. **External Services**: Google Maps API for location visualization and mapping features.
 
-</details>
-
 ## 🚀 Setup and Installation
-
-<details>
-<summary>Click to expand</summary>
 
 ### Backend
 
 1. Clone the repository:
+
    ```
    git clone https://github.com/anxkhn/auratrips.git
    cd auratrips/server
    ```
 
 2. Set up a virtual environment:
+
    ```
    python -m venv venv
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    ```
 
 3. Install dependencies:
+
    ```
    pip install -r requirements.txt
    ```
 
 4. Set up environment variables:
+
    ```
    cp .env.example .env
    ```
+
    Edit the `.env` file with your specific configuration.
 
 5. Run the server:
@@ -120,19 +106,23 @@ AuraTrips follows a modern, scalable architecture:
 ### Frontend
 
 1. Navigate to the client directory:
+
    ```
    cd ../client
    ```
 
 2. Install dependencies:
+
    ```
    npm install
    ```
 
 3. Set up environment variables:
+
    ```
    cp .env.example .env
    ```
+
    Edit the `.env` file with your specific configuration.
 
 4. Run the development server:
@@ -140,12 +130,7 @@ AuraTrips follows a modern, scalable architecture:
    npm run dev
    ```
 
-</details>
-
 ## 📖 Usage
-
-<details>
-<summary>Click to expand</summary>
 
 1. Open your browser and navigate to `http://localhost:5173` (or the port specified by Vite).
 2. Sign up or log in to your AuraTrips account.
@@ -155,12 +140,7 @@ AuraTrips follows a modern, scalable architecture:
 
 ![Usage Demo](https://via.placeholder.com/800x400?text=AuraTrips+Usage+Demo)
 
-</details>
-
 ## 🧠 AI and Data Processing
-
-<details>
-<summary>Click to expand</summary>
 
 AuraTrips implements a **RAG (Retrieval-Augmented Generation) model** to leverage data from a local CSV file containing information about the best travel destinations. This approach allows us to provide more accurate and up-to-date recommendations by combining the power of large language models with real-world data.
 
@@ -172,13 +152,7 @@ The RAG implementation involves the following steps:
 2. **Retrieval**: When a user inputs their preferences, we use this data to retrieve relevant information about potential destinations and activities.
 3. **Generation**: The LLaMA 3 model then uses this retrieved information, along with the user's preferences, to generate a tailored itinerary.
 
-
-</details>
-
 ## 🎨 Design Choices
-
-<details>
-<summary>Click to expand</summary>
 
 1. **FastAPI for Backend**: Chosen for its high performance, easy-to-use async capabilities, and built-in support for OpenAPI documentation.
 2. **React with Vite for Frontend**: React provides a robust ecosystem for building interactive UIs, while Vite offers lightning-fast build times and hot module replacement.
@@ -187,12 +161,7 @@ The RAG implementation involves the following steps:
 5. **LLaMA 3 via Groq API**: Offers more control over the AI's outputs and potential for future fine-tuning.
 6. **CSV Data Integration**: Maintains a curated, high-quality dataset that can be easily updated and expanded.
 
-</details>
-
 ## 🚧 Challenges and Solutions
-
-<details>
-<summary>Click to expand</summary>
 
 1. **Challenge**: Integrating RAG with LLaMA 3 for accurate travel recommendations.
    **Solution**: Developed a custom pipeline that retrieves relevant information from our CSV dataset based on user preferences, then uses this context to guide the LLaMA 3 model in generating personalized itineraries.
@@ -203,24 +172,14 @@ The RAG implementation involves the following steps:
 3. **Challenge**: Expensive to keep using LLaMA 3 model.
    **Solution**: Implemented caching of responses from the LLM to reduce the cost of using the model. Subsequent requests for the same itinerary are essentially free as they are hashed to get a unique id and stored in the database.
 
-</details>
-
 ## 🔮 Future Improvements
-
-<details>
-<summary>Click to expand</summary>
 
 1. Implement user feedback loops to continuously improve AI recommendations.
 2. Integrate real-time pricing and availability data from travel APIs.
 3. Develop a mobile app for on-the-go itinerary access and updates.
 4. Enable sharing of entire itinerary PDF with friends and family via email.
 
-</details>
-
 ## 🚀 Deployment
-
-<details>
-<summary>Click to expand</summary>
 
 ### Backend
 
@@ -231,7 +190,6 @@ https://auratrips-backend-pvt-production.up.railway.app/
 
 The frontend is deployed on Vercel and can be accessed at:
 https://auratrips.vercel.app
-
 
 ## Personal Note
 
