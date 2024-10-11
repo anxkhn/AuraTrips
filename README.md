@@ -1,4 +1,4 @@
-# 🌟 AuraTrips:
+# ✈️ AuraTrips:
 
 ## AI-Powered Personalized Travel Itinerary Generator
 
@@ -31,14 +31,14 @@
 
 ## 🌈 Introduction
 
-AuraTrips is an innovative, **AI-powered travel itinerary generator** designed to create personalized travel experiences based on user preferences. Leveraging cutting-edge AI technologies, including **RAG (Retrieval-Augmented Generation)** and **LLM (Large Language Models)**, AuraTrips curates dream vacations by synthesizing data from thousands of verified travelers' experiences.
+AuraTrips is an innovative, **AI-powered travel itinerary generator** designed to create personalized travel experiences based on user preferences. Leve**RAG**ing cutting-edge AI technologies, including ****RAG** (Retrieval-Augmented Generation)** and **LLM (Large Language Models)**, AuraTrips curates dream vacations by synthesizing data from thousands of verified travelers' experiences.
 
 This solution addresses the Atlan Engineering Fellowship Task - 2024, focusing on creating a web application that generates tailored travel itineraries. AuraTrips goes beyond the basic requirements, offering a seamless, user-friendly interface coupled with powerful backend processing to deliver dynamic, detailed itineraries that cater to individual needs and preferences.
 
 ## ✨ Features
 
 - 🖥️ User-friendly interface for inputting travel preferences
-- 🤖 AI-powered itinerary generation using RAG and LLM technologies
+- 🤖 AI-powered itinerary generation using **RAG** and LLM technologies
 - 💡 Personalized recommendations based on budget, interests, and trip duration
 - 🗺️ Integration with Google Maps API for location visualization
 - 📱 Responsive design for seamless use across devices
@@ -92,7 +92,7 @@ AuraTrips follows a modern, scalable architecture:
 1. **Frontend**: built with React, providing a responsive and interactive user interface.
 2. **Backend API**: FastAPI-powered RESTful API handling user requests, authentication, and AI processing.
 3. **Database**: SQLite for development, with easy file based makes it easy to deploy with backend.
-4. **AI Processing**: Integration with Groq API for accessing the LLaMA 3 model, enhanced with RAG for personalized recommendations.
+4. **AI Processing**: Integration with Groq API for accessing the LLaMA 3 model, enhanced with **RAG** for personalized recommendations.
 5. **External Services**: Google Maps API for location visualization and mapping features.
 
 ## 🚀 Setup and Installation
@@ -147,7 +147,7 @@ Travel Page
 
 
 
-Looks good right? Time to set it up!
+### Looks dope right? Time to set it up!
 
 1. Navigate to the client directory:
 
@@ -177,18 +177,18 @@ Looks good right? Time to set it up!
 ## 📖 Usage
 
 1. Open your browser and navigate to `http://localhost:5173` (or the port specified by Vite).
-2. Sign up or log in to your AuraTrips account.
+2. Sign up / sign in or continue without signing to your AuraTrips account.
 3. Fill in your travel preferences, including destination, budget, interests, and trip duration.
 4. Click "Generate Itinerary" to receive your personalized travel plan.
 5. Explore and customize your itinerary as needed.
 
 ## 🧠 AI and Data Processing
 
-AuraTrips implements a **RAG (Retrieval-Augmented Generation) model** to leverage data from a local CSV file containing information about the best travel destinations. This approach allows us to provide more accurate and up-to-date recommendations by combining the power of large language models with real-world data.
+AuraTrips implements a ****RAG** (Retrieval-Augmented Generation) model** to leve**RAG**e data from a local CSV file containing information about the best travel destinations. This approach allows us to provide more accurate and up-to-date recommendations by combining the power of large language models with real-world data.
 
 The **open-source LLaMA 3 model** is used for curating and generating personalized itineraries. By utilizing this advanced language model, we can create more natural and context-aware travel plans that truly reflect the user's preferences and interests.
 
-The RAG implementation involves the following steps:
+The **RAG** implementation involves the following steps:
 
 1. **Data Ingestion**: We process a CSV file containing verified travel destination data sourced from [Kaggle](https://www.kaggle.com/datasets/saketk511/travel-dataset-guide-to-indias-must-see-places). This dataset has information about 300+ destinations, and user ratings, providing a rich source of information for generating personalized itineraries.
 2. **Retrieval**: When a user inputs their preferences, we use this data to retrieve relevant information about potential destinations and activities.
@@ -199,13 +199,13 @@ The RAG implementation involves the following steps:
 1. **FastAPI for Backend**: Chosen for its high performance, easy-to-use async capabilities, and built-in support for OpenAPI documentation.
 2. **React with Vite for Frontend**: React provides a robust ecosystem for building interactive UIs, while Vite offers lightning-fast build times and hot module replacement.
 3. **Tailwind CSS and shadcn/ui**: Allow for rapid UI development with a consistent design language.
-4. **RAG Implementation**: Ensures AI-generated itineraries are grounded in real-world data and up-to-date information.
+4. ****RAG** Implementation**: Ensures AI-generated itineraries are grounded in real-world data and up-to-date information.
 5. **LLaMA 3 via Groq API**: Offers more control over the AI's outputs and potential for future fine-tuning.
 6. **CSV Data Integration**: Maintains a curated, high-quality dataset that can be easily updated and expanded.
 
 ## 🚧 Challenges and Solutions
 
-1. **Challenge**: Integrating RAG with LLaMA 3 for accurate travel recommendations.
+1. **Challenge**: Integrating **RAG** with LLaMA 3 for accurate travel recommendations.
    **Solution**: Developed a custom pipeline that retrieves relevant information from our CSV dataset based on user preferences, then uses this context to guide the LLaMA 3 model in generating personalized itineraries.
 
 2. **Challenge**: Unable to share with friends and family.
