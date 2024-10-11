@@ -1,4 +1,6 @@
-# 🌟 AuraTrips: AI-Powered Personalized Travel Itinerary Generator
+# 🌟 AuraTrips:
+
+## AI-Powered Personalized Travel Itinerary Generator
 
 ## 📚 Table of Contents
 
@@ -138,8 +140,6 @@ AuraTrips follows a modern, scalable architecture:
 4. Click "Generate Itinerary" to receive your personalized travel plan.
 5. Explore and customize your itinerary as needed.
 
-![Usage Demo](https://via.placeholder.com/800x400?text=AuraTrips+Usage+Demo)
-
 ## 🧠 AI and Data Processing
 
 AuraTrips implements a **RAG (Retrieval-Augmented Generation) model** to leverage data from a local CSV file containing information about the best travel destinations. This approach allows us to provide more accurate and up-to-date recommendations by combining the power of large language models with real-world data.
@@ -183,13 +183,15 @@ The RAG implementation involves the following steps:
 
 ### Backend
 
-The backend is deployed on Railway and can be accessed at:
-https://auratrips-backend-pvt-production.up.railway.app/
+The backend is deployed on Railway and can be accessed at
+
+[https://auratrips-backend-pvt-production.up.railway.app](https://auratrips-backend-pvt-production.up.railway.app).
 
 ### Frontend
 
-The frontend is deployed on Vercel and can be accessed at:
-https://auratrips.vercel.app
+The frontend is deployed on Vercel and can be accessed at
+
+[https://auratrips.vercel.app](https://auratrips.vercel.app).
 
 ## Personal Note
 
