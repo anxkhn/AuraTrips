@@ -2,12 +2,24 @@
 
 ## AI-Powered Personalized Travel Itinerary Generator
 
+
+
+
+![image](https://github.com/user-attachments/assets/6c105ea9-fba4-4b09-b144-75f4547c5bdc)
+
+![image](https://github.com/user-attachments/assets/08fb84ed-c0dd-404e-9b08-b75a6156872b)
+
+![image](https://github.com/user-attachments/assets/b6f22df6-23f3-4379-8253-852149c2fa99)
+
+![image](https://github.com/user-attachments/assets/c185bf85-776f-4188-afc5-8532b4648aec)
+
+
 ## 📚 Table of Contents
 
 - [Introduction](#-introduction)
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
-- [Architecture](#-architecture)
+- [Architecture](#🏗-Architecture)
 - [Setup and Installation](#-setup-and-installation)
 - [Usage](#-usage)
 - [AI and Data Processing](#-ai-and-data-processing)
@@ -15,8 +27,7 @@
 - [Challenges and Solutions](#-challenges-and-solutions)
 - [Future Improvements](#-future-improvements)
 - [Deployment](#-deployment)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [Personal Note](#-personal-note)
 
 ## 🌈 Introduction
 
@@ -37,6 +48,14 @@ This solution addresses the Atlan Engineering Fellowship Task - 2024, focusing o
 
 ### Backend
 
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-ED2226?style=for-the-badge&logo=sqlalchemy&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-2A9D8F?style=for-the-badge&logo=pydantic&logoColor=white)
+![Groq API](https://img.shields.io/badge/Groq_API-262626?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python_3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+
+
 - **FastAPI**: High-performance, easy-to-use framework for building APIs
 - **SQLAlchemy**: SQL toolkit and ORM for database operations
 - **Pydantic**: Data validation and settings management
@@ -44,6 +63,14 @@ This solution addresses the Atlan Engineering Fellowship Task - 2024, focusing o
 - **Python 3.9+**
 
 ### Frontend
+
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-262626?style=for-the-badge&logo=radix-ui&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
+
 
 - **React**: A JavaScript library for building user interfaces
 - **Vite**: Next-generation frontend tooling
@@ -107,6 +134,21 @@ AuraTrips follows a modern, scalable architecture:
 
 ### Frontend
 
+Signup Page
+![image](https://github.com/user-attachments/assets/d2caabf5-f3aa-410e-9f03-6241a1289dec)
+
+Trips Planner Page
+![image](https://github.com/user-attachments/assets/bf8e22c7-4a43-46a5-89e1-de4a57420bea)
+
+Travel Page
+![image](https://github.com/user-attachments/assets/3321d408-33d9-4df9-a09a-4d5aeac1683e)
+![image](https://github.com/user-attachments/assets/6be16b49-c5cc-4c5b-a715-8ece8dfb0537)
+![image](https://github.com/user-attachments/assets/04787bae-914d-4817-b70a-31022b6b9e04)
+
+
+
+Looks good right? Time to set it up!
+
 1. Navigate to the client directory:
 
    ```
@@ -148,7 +190,7 @@ The **open-source LLaMA 3 model** is used for curating and generating personaliz
 
 The RAG implementation involves the following steps:
 
-1. **Data Ingestion**: We process a CSV file containing verified travel destination data sourced from Kaggle. This dataset has information about 300+ destinations, and user ratings, providing a rich source of information for generating personalized itineraries.
+1. **Data Ingestion**: We process a CSV file containing verified travel destination data sourced from [Kaggle](https://www.kaggle.com/datasets/saketk511/travel-dataset-guide-to-indias-must-see-places). This dataset has information about 300+ destinations, and user ratings, providing a rich source of information for generating personalized itineraries.
 2. **Retrieval**: When a user inputs their preferences, we use this data to retrieve relevant information about potential destinations and activities.
 3. **Generation**: The LLaMA 3 model then uses this retrieved information, along with the user's preferences, to generate a tailored itinerary.
 
