@@ -2,16 +2,8 @@
 
 ## AI-Powered Personalized Travel Itinerary Generator
 
+![image](https://github.com/user-attachments/assets/b5e176ed-9dbe-4b8f-8b2a-25761e273e14)
 
-
-
-![image](https://github.com/user-attachments/assets/6c105ea9-fba4-4b09-b144-75f4547c5bdc)
-
-![image](https://github.com/user-attachments/assets/08fb84ed-c0dd-404e-9b08-b75a6156872b)
-
-![image](https://github.com/user-attachments/assets/b6f22df6-23f3-4379-8253-852149c2fa99)
-
-![image](https://github.com/user-attachments/assets/c185bf85-776f-4188-afc5-8532b4648aec)
 
 
 ## 📚 Table of Contents
@@ -184,7 +176,7 @@ Travel Page
 
 ## 🧠 AI and Data Processing
 
-AuraTrips implements a ****RAG** (Retrieval-Augmented Generation) model** to leve**RAG**e data from a local CSV file containing information about the best travel destinations. This approach allows us to provide more accurate and up-to-date recommendations by combining the power of large language models with real-world data.
+AuraTrips implements a ****RAG** (Retrieval-Augmented Generation) model** to leverage data from a local CSV file containing information about the best travel destinations. This approach allows us to provide more accurate and up-to-date recommendations by combining the power of large language models with real-world data.
 
 The **open-source LLaMA 3 model** is used for curating and generating personalized itineraries. By utilizing this advanced language model, we can create more natural and context-aware travel plans that truly reflect the user's preferences and interests.
 
