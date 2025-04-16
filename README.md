@@ -25,7 +25,7 @@
 
 AuraTrips is an innovative, **AI-powered travel itinerary generator** designed to create personalized travel experiences based on user preferences. Leve**RAG**ing cutting-edge AI technologies, including ****RAG** (Retrieval-Augmented Generation)** and **LLM (Large Language Models)**, AuraTrips curates dream vacations by synthesizing data from thousands of verified travelers' experiences.
 
-This solution addresses the Atlan Engineering Fellowship Task - 2024, focusing on creating a web application that generates tailored travel itineraries. AuraTrips goes beyond the basic requirements, offering a seamless, user-friendly interface coupled with powerful backend processing to deliver dynamic, detailed itineraries that cater to individual needs and preferences.
+This solution is focusing on creating a web application that generates tailored travel itineraries. AuraTrips goes beyond the basic requirements, offering a seamless, user-friendly interface coupled with powerful backend processing to deliver dynamic, detailed itineraries that cater to individual needs and preferences.
 
 ## ✨ Features
 
@@ -227,12 +227,4 @@ The frontend is deployed on Vercel and can be accessed at
 
 [https://auratrips.vercel.app](https://auratrips.vercel.app).
 
-## Personal Note
-
-I want to extend my sincere apologies for the delay in completing this project and for submitting it as a single commit. Due to unforeseen circumstances and time constraints, I wasn't able to follow my usual development process of making regular, smaller commits.
-
-Despite these limitations, I've put my best effort into creating a comprehensive and innovative solution that meets the requirements of the Atlan Engineering Fellowship Task. I hope that the quality of the code, the thoughtfulness of the architecture, and the creativity in problem-solving shine through in this project.
-
-Thank you for your understanding and for taking the time to review my work. I'm excited about the potential of working at Atlan and would be thrilled to discuss it further.
-
-Made with ❤️ by Anas Khan for Atlan
+Made with ❤️ by Anas Khan 
